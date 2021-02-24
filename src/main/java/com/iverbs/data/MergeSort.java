@@ -39,5 +39,11 @@ public class MergeSort {
             numbers[from++] = right[ri++];
         }
     }
+    
+    public static void main(String [] args) {
+        int[] values = new int[] {9, -3, 5, 0, 1};
+        MergeSort ms = new MergeSort();
+        ms.sort(values);
+    }
 
 }
